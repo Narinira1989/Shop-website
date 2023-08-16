@@ -7,6 +7,29 @@
   pointer-events: none;
 }
 
+body{
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+  background: #cfd8dc;
+}
+
+.link{
+  padding: 10px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 2px;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -34,5 +57,91 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+
+
+.products {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+}
+
+.product-card {
+  margin-left: 60px;
+
+  padding: 2%;
+
+  flex-grow: 1;
+
+  flex-basis: 16%;
+
+}
+
+body {
+
+  background-color: #f6f6f6;
+
+}
+
+
+
+.cont {
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.back {
+
+  background-color: #f4eddd; 
+
+  padding: 20px;
+
+  margin-left: 20px;
+
+  margin-right: 20px;
+
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+
+
+
+}
+
+.change {
+
+  background-color: black;
+
+  color: white;
+
+  padding: 10px;
+
+  border: none;
+
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+
+}
+
+h3, h4 {
+
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+
+}
+
+button {
+
+  margin: 10px;
+
+}
+
+@media all and (max-width: 800px) {
+  .product-card{
+    margin-left: 80px;
   }
 }
